@@ -58,6 +58,7 @@ A **set** is a built-in data type in Python used to store multiple values in a s
 🧮 **4. ALGORITHM (PROBLEM-WISE):**
 
 📌 **Problem 1: Creation and Display of a Set:**
+
 1️⃣ Start the program  
 2️⃣ Create a set with elements  
 3️⃣ Display the set  
@@ -65,6 +66,7 @@ A **set** is a built-in data type in Python used to store multiple values in a s
 5️⃣ Stop  
 
 📌 **Problem 2: Indexing in Sets:**
+
 1️⃣ Create a set  
 2️⃣ Try accessing elements using index  
 3️⃣ Error occurs  
@@ -72,12 +74,14 @@ A **set** is a built-in data type in Python used to store multiple values in a s
 5️⃣ Stop  
 
 📌 **Problem 3: Mixed Data Types in a Set:**
+
 1️⃣ Create a set with int, float, string, boolean  
 2️⃣ Display the set  
 3️⃣ Observe uniqueness  
 4️⃣ Stop  
 
 📌 **Problem 4: Finding Absent Students:**
+
 1️⃣ Create a set of all students  
 2️⃣ Create a set of present students  
 3️⃣ Subtract present from total  
@@ -85,6 +89,7 @@ A **set** is a built-in data type in Python used to store multiple values in a s
 5️⃣ Stop  
 
 📌 **Problem 5: Removing Invalid Course Code:**
+
 1️⃣ Create a set of course codes  
 2️⃣ Identify invalid code  
 3️⃣ Remove using `remove()` or `discard()`  
