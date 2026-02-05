@@ -35,6 +35,7 @@ The following built-in Python functions, methods, and operators are used in this
 A **set** is a built-in data type in Python used to store multiple values in a single variable.
 
 🔸 **Important Characteristics of Sets:**
+
 ✔ Stores only **unique elements**  
 ✔ Elements are **unordered**  
 ✔ Does **not support indexing or slicing**  
