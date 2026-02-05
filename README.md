@@ -1,117 +1,112 @@
-📘 **EXPERIMENT 4: STUDY OF SETS IN PYTHON** 📘
+📘✨ **EXPERIMENT 4: STUDY OF SETS IN PYTHON** ✨📘
 
----
+────────────────────────────────────────
 
-### 🎯 AIM
+🎯 **1. AIM**
 
-| Cell | Description |
-|------|------------|
-| Cell 1 | To understand the concept of **Sets in Python** |
-| Cell 2 | To learn creation and operations on sets |
-| Cell 3 | To apply sets in real-life problem-solving scenarios |
+The main aim of this experiment is to understand the concept of **Sets in Python**.  
+This experiment helps in learning how sets are created, how they store unique elements, and how different set operations are performed using Python programs.  
+It also focuses on practical problem-solving using sets such as attendance tracking and course management.
 
----
+────────────────────────────────────────
 
-### 🛠️ FUNCTIONS USED
+🛠️ **2. FUNCTIONS USED**
 
-| Cell | Function / Operator | Purpose |
-|------|--------------------|---------|
-| Cell 1 | `set()` | Creates a set |
-| Cell 2 | `print()` | Displays output |
-| Cell 3 | `add()` | Adds an element |
-| Cell 4 | `remove()` | Removes an element |
-| Cell 5 | `discard()` | Removes element without error |
-| Cell 6 | `|` | Union |
-| Cell 7 | `&` | Intersection |
-| Cell 8 | `-` | Difference |
+The following built-in Python functions, methods, and operators are used in this experiment:
 
----
+🔹 **Built-in Functions**
+- `set()` – Used to create a set  
+- `print()` – Used to display output
 
-### 📖 THEORY (CELL-WISE)
+🔹 **Set Methods**
+- `add(element)` – Adds a new element to the set  
+- `remove(element)` – Removes a specific element (raises error if not found)  
+- `discard(element)` – Removes an element without raising an error
 
-| Cell | Explanation |
-|------|-------------|
-| Cell 1 | A **set** is a built-in data type in Python used to store multiple values. |
-| Cell 2 | Sets store only **unique elements**, duplicate values are not allowed. |
-| Cell 3 | Sets are **unordered**, so elements do not have a fixed position. |
-| Cell 4 | Indexing and slicing are **not supported** in sets. |
-| Cell 5 | Sets are **mutable**, elements can be added or removed after creation. |
-| Cell 6 | Sets can store **different data types** like int, float, string, and boolean. |
-| Cell 7 | Sets support **mathematical operations** such as union, intersection, and difference. |
-| Cell 8 | Sets provide **fast membership testing**, improving performance. |
-| Cell 9 | Sets are useful for **removing duplicate data** from collections. |
-| Cell 10 | Sets are widely used in **attendance systems and data comparison**. |
+🔹 **Set Operators**
+- `|` → Union  
+- `&` → Intersection  
+- `-` → Difference  
 
----
+────────────────────────────────────────
 
-### 🧮 ALGORITHM (PROBLEM-WISE)
+📖 **3. THEORY**
 
-#### 📌 Problem 1: Creation and Display of a Set
+A **set** is a built-in data type in Python used to store multiple values in a single variable.
 
-| Cell | Step |
-|------|------|
-| Cell 1 | Start the program |
-| Cell 2 | Create a set with elements |
-| Cell 3 | Display the set |
-| Cell 4 | Observe unordered output |
-| Cell 5 | Stop the program |
+🔸 **Important Characteristics of Sets**
 
----
+✔ Stores only **unique elements**  
+✔ Elements are **unordered**  
+✔ Does **not support indexing or slicing**  
+✔ Supports **mathematical set operations**  
+✔ Can store **multiple data types**  
 
-#### 📌 Problem 2: Indexing in Sets
+🔸 **Why Use Sets?**
 
-| Cell | Step |
-|------|------|
-| Cell 1 | Create a set |
-| Cell 2 | Try accessing element using index |
-| Cell 3 | Error occurs |
-| Cell 4 | Conclude indexing not supported |
-| Cell 5 | Stop |
+- To remove duplicate values  
+- To compare two or more collections  
+- To perform mathematical operations  
+- To improve performance in membership testing  
 
----
+🔸 **Real-Life Applications**
 
-#### 📌 Problem 3: Mixed Data Types in a Set
+- Attendance systems  
+- Course allocation systems  
+- Data comparison  
+- Removing duplicate records  
 
-| Cell | Step |
-|------|------|
-| Cell 1 | Create a set with different data types |
-| Cell 2 | Display the set |
-| Cell 3 | Observe uniqueness |
-| Cell 4 | Stop |
+────────────────────────────────────────
 
----
+🧮 **4. ALGORITHM (PROBLEM-WISE)**
 
-#### 📌 Problem 4: Finding Absent Students
+📌 **Problem 1: Creation and Display of a Set**
 
-| Cell | Step |
-|------|------|
-| Cell 1 | Create set of all students |
-| Cell 2 | Create set of present students |
-| Cell 3 | Subtract present from total |
-| Cell 4 | Display absent students |
-| Cell 5 | Stop |
+1️⃣ Start the program  
+2️⃣ Create a set with elements  
+3️⃣ Display the set  
+4️⃣ Observe unordered output  
+5️⃣ Stop  
 
----
+📌 **Problem 2: Indexing in Sets**
 
-#### 📌 Problem 5: Removing Invalid Course Code
+1️⃣ Create a set  
+2️⃣ Try accessing elements using index  
+3️⃣ Error occurs  
+4️⃣ Conclude indexing is not supported  
+5️⃣ Stop  
 
-| Cell | Step |
-|------|------|
-| Cell 1 | Create set of course codes |
-| Cell 2 | Identify invalid code |
-| Cell 3 | Remove using remove/discard |
-| Cell 4 | Display updated set |
-| Cell 5 | Stop |
+📌 **Problem 3: Mixed Data Types in a Set**
 
----
+1️⃣ Create a set with int, float, string, boolean  
+2️⃣ Display the set  
+3️⃣ Observe uniqueness  
+4️⃣ Stop  
 
-### ✅ CONCLUSION
+📌 **Problem 4: Finding Absent Students**
 
-| Cell | Summary |
-|------|--------|
-| Cell 1 | Sets store unique and unordered elements |
-| Cell 2 | Set operations simplify data handling |
-| Cell 3 | Sets are useful in real-world applications |
-| Cell 4 | Understanding sets improves Python programming skills |
+1️⃣ Create a set of all students  
+2️⃣ Create a set of present students  
+3️⃣ Subtract present from total  
+4️⃣ Display absent students  
+5️⃣ Stop  
 
----
+📌 **Problem 5: Removing Invalid Course Code**
+
+1️⃣ Create a set of course codes  
+2️⃣ Identify invalid code  
+3️⃣ Remove using `remove()` or `discard()`  
+4️⃣ Display updated set  
+5️⃣ Stop  
+
+────────────────────────────────────────
+
+✅ **5. CONCLUSION**
+
+This experiment helped in understanding the fundamentals of **sets in Python**.  
+We learned about their properties, limitations, and advantages.  
+Set operations such as union, intersection, and difference make Python powerful for handling real-world data efficiently.  
+
+Overall, this experiment strengthens the understanding of Python data structures and improves problem-solving skills.
+
+────────────────────────────────────────
