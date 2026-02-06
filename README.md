@@ -1,112 +1,108 @@
-📘✨ **EXPERIMENT 4: STUDY OF SETS IN PYTHON** ✨📘
-
-────────────────────────────────────────
-
 🎯 **1. AIM**
 
-The main aim of this experiment is to understand the concept of **Sets in Python**.  
-This experiment helps in learning how sets are created, how they store unique elements, and how different set operations are performed using Python programs.  
-It also focuses on practical problem-solving using sets such as attendance tracking and course management.
-
-────────────────────────────────────────
+The aim of this experiment is to study and understand the concept of Sets in Python.
+This experiment explains how sets are created, how they store unique values, and how different set operations are performed.
+It also demonstrates the use of sets in solving simple real-life problems such as identifying absent students and managing course codes.
 
 🛠️ **2. FUNCTIONS USED**
 
-The following built-in Python functions, methods, and operators are used in this experiment:
+The following Python built-in functions, methods, and operators are used in this experiment:
 
-🔹 **Built-in Functions**
-- `set()` – Used to create a set  
-- `print()` – Used to display output
+🔹 Built-in Functions
+• set() – Used to create a set
+• print() – Used to display the output
 
-🔹 **Set Methods**
-- `add(element)` – Adds a new element to the set  
-- `remove(element)` – Removes a specific element (raises error if not found)  
-- `discard(element)` – Removes an element without raising an error
+🔹 Set Methods
+• add() – Adds a new element to the set
+• remove() – Removes a specified element from the set
+• discard() – Removes an element without generating an error
 
-🔹 **Set Operators**
-- `|` → Union  
-- `&` → Intersection  
-- `-` → Difference  
-
-────────────────────────────────────────
+🔹 Set Operators
+• | → Union of sets
+• & → Intersection of sets
+• - → Difference of sets
 
 📖 **3. THEORY**
 
-A **set** is a built-in data type in Python used to store multiple values in a single variable.
+A set is a built-in data structure in Python that stores a collection of unique elements.
+Sets do not maintain any order, and duplicate values are automatically removed.
 
-🔸 **Important Characteristics of Sets**
+Main features of sets:
+✔ Stores only unique elements
+✔ Unordered collection
+✔ Indexing and slicing are not supported
+✔ Elements can be added or removed
+✔ Supports mathematical operations
 
-✔ Stores only **unique elements**  
-✔ Elements are **unordered**  
-✔ Does **not support indexing or slicing**  
-✔ Supports **mathematical set operations**  
-✔ Can store **multiple data types**  
+Uses of sets:
+• Removing duplicate values from data
+• Comparing two or more collections
+• Attendance and record management
+• Efficient data handling
 
-🔸 **Why Use Sets?**
+🧮 4. **ALGORITHM**
 
-- To remove duplicate values  
-- To compare two or more collections  
-- To perform mathematical operations  
-- To improve performance in membership testing  
+📌 Problem 1: Creation and Display of a Set
 
-🔸 **Real-Life Applications**
+Start the program
 
-- Attendance systems  
-- Course allocation systems  
-- Data comparison  
-- Removing duplicate records  
+Create a set with required elements
 
-────────────────────────────────────────
+Display the set using print()
 
-🧮 **4. ALGORITHM (PROBLEM-WISE)**
+Observe that the order of elements is not fixed
 
-📌 **Problem 1: Creation and Display of a Set**
+End the program
 
-1️⃣ Start the program  
-2️⃣ Create a set with elements  
-3️⃣ Display the set  
-4️⃣ Observe unordered output  
-5️⃣ Stop  
+📌 Problem 2: Indexing in Sets
 
-📌 **Problem 2: Indexing in Sets**
+Create a set
 
-1️⃣ Create a set  
-2️⃣ Try accessing elements using index  
-3️⃣ Error occurs  
-4️⃣ Conclude indexing is not supported  
-5️⃣ Stop  
+Attempt to access elements using index values
 
-📌 **Problem 3: Mixed Data Types in a Set**
+An error is generated
 
-1️⃣ Create a set with int, float, string, boolean  
-2️⃣ Display the set  
-3️⃣ Observe uniqueness  
-4️⃣ Stop  
+Conclude that sets do not support indexing
 
-📌 **Problem 4: Finding Absent Students**
+End the program
 
-1️⃣ Create a set of all students  
-2️⃣ Create a set of present students  
-3️⃣ Subtract present from total  
-4️⃣ Display absent students  
-5️⃣ Stop  
+📌 Problem 3: Set with Mixed Data Types
 
-📌 **Problem 5: Removing Invalid Course Code**
+Create a set containing different data types
 
-1️⃣ Create a set of course codes  
-2️⃣ Identify invalid code  
-3️⃣ Remove using `remove()` or `discard()`  
-4️⃣ Display updated set  
-5️⃣ Stop  
+Display the set
 
-────────────────────────────────────────
+Observe uniqueness of elements
+
+End the program
+
+📌 Problem 4: Finding Absent Students
+
+Create a set of all students
+
+Create a set of present students
+
+Find absent students using set difference
+
+Display the result
+
+End the program
+
+📌 Problem 5: Removing an Invalid Course Code
+
+Create a set of course codes
+
+Identify the invalid course code
+
+Remove it using appropriate set methods
+
+Display the updated set
+
+End the program
 
 ✅ **5. CONCLUSION**
 
-This experiment helped in understanding the fundamentals of **sets in Python**.  
-We learned about their properties, limitations, and advantages.  
-Set operations such as union, intersection, and difference make Python powerful for handling real-world data efficiently.  
-
-Overall, this experiment strengthens the understanding of Python data structures and improves problem-solving skills.
-
-────────────────────────────────────────
+This experiment helped in gaining a clear understanding of sets in Python.
+It explained the properties of sets and their importance in handling unique data.
+Set operations such as union, intersection, and difference make data comparison simple and efficient.
+Overall, this experiment improves knowledge of Python data structures and enhances problem-solving skills.
