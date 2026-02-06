@@ -1,3 +1,6 @@
+Name: Dhruv Patil
+PRN: 25070123146
+
 🎯 **1. AIM**
 
 The aim of this experiment is to study and understand the concept of Sets in Python.
@@ -62,61 +65,61 @@ Uses of sets:
 
 📌 Problem 1: Creation and Display of a Set
 
-Start the program
+-Start the program
 
-Create a set with required elements
+-Create a set with required elements
 
-Display the set using print()
+-Display the set using print()
 
-Observe that the order of elements is not fixed
+-Observe that the order of elements is not fixed
 
-End the program
+-End the program
 
 📌 Problem 2: Indexing in Sets
 
-Create a set
+-Create a set
 
-Attempt to access elements using index values
+-Attempt to access elements using index values
 
-An error is generated
+-An error is generated
 
-Conclude that sets do not support indexing
+-Conclude that sets do not support indexing
 
-End the program
+-End the program
 
 📌 Problem 3: Set with Mixed Data Types
 
-Create a set containing different data types
+-Create a set containing different data types
 
-Display the set
+-Display the set
 
-Observe uniqueness of elements
+-Observe uniqueness of elements
 
-End the program
+-End the program
 
 📌 Problem 4: Finding Absent Students
 
-Create a set of all students
+-Create a set of all students
 
-Create a set of present students
+-Create a set of present students
 
-Find absent students using set difference
+-Find absent students using set difference
 
-Display the result
+-Display the result
 
-End the program
+-End the program
 
 📌 Problem 5: Removing an Invalid Course Code
 
-Create a set of course codes
+-Create a set of course codes
 
-Identify the invalid course code
+-Identify the invalid course code
 
-Remove it using appropriate set methods
+-Remove it using appropriate set methods
 
-Display the updated set
+-Display the updated set
 
-End the program
+-End the program
 
 ✅ **5. CONCLUSION**
 
