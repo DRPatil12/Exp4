@@ -1,132 +1,116 @@
-Name: Dhruv Patil
-PRN: 25070123146
+#**EXPERIMENT 4 : Study of Set in Python**
+
+##*AIM*: **To study the Set data type in Python and perform basic operations**
+
+*THEORY*:
+
+In Python, a set is a built-in data type used to store a collection of unique and unordered elements. Sets do not allow duplicate values and automatically remove repeated elements, which makes them very useful for handling distinct data efficiently. Since sets are unordered, elements do not have fixed positions and cannot be accessed using index values. Python sets are mutable, meaning elements can be added or removed using methods such as add(), remove(), and discard(). Sets can store elements of different data types like integers, floats, strings, and boolean values, but they cannot contain mutable data types such as lists and dictionaries.
 
-🎯 **1. AIM**
+Sets support various mathematical operations like union, intersection, difference, and symmetric difference, which are widely used in solving real-life problems such as finding common elements, eliminating duplicates, grouping data, and comparing datasets. Python also provides an immutable version of sets known as frozenset, whose elements cannot be modified after creation.
 
-The aim of this experiment is to study and understand the concept of Sets in Python.
-This experiment explains how sets are created, how they store unique values, and how different set operations are performed.
-It also demonstrates the use of sets in solving simple real-life problems such as identifying absent students and managing course codes.
+In this experiment, different set operations were implemented to understand their working and practical applications in data handling.
 
-🛠️ **2. FUNCTIONS USED**
+*ALGORITHM*:
+
+*Program 1: Creation and display of a set*
 
-The following Python built-in functions, methods, and operators are used in this experiment:
+     Start the program.
+     Create a set using curly braces {} with string elements.
+     Store the set in a variable.
+     Display the set using the print() function.
 
-🔹 Built-in Functions
+*Program 2: Set with different data types*
 
-• set() – Used to create a set
+     Start the program.
+     Create a set containing integer, float, boolean, and string values.
+     Store the set in a variable.
+     Print the set using print().
+     
+*Program 3: Removal of duplicate elements in set*
 
-• print() – Used to display the output
+          Start the program.
+          Create a set with duplicate elements.
+          Store the set in a variable.
+          Print the set.
+          Observe that duplicate values are automatically removed.
 
-🔹 Set Methods
+*Program 4: Adding an element to a set*
 
-• add() – Adds a new element to the set
+           Start the program.
+           Create a set with initial elements.
+           Use the add() method to insert a new element into the set.
+           Display the updated set using print().
+           
+*Program 5: Removing an Element from a Set*
 
-• remove() – Removes a specified element from the set
+          Start the program.
+          Create a set with string elements.
+          Use the remove() method to delete a specified element from the set.
+          Display the updated set using print().
 
-• discard() – Removes an element without generating an error
+*Program 6: Set Operations (Union, Intersection, Difference, Symmetric Difference)*
 
-🔹 Set Operators
+           Start the program.
+           Create two sets with integer elements.
+           Perform union using the | operator.
+           Perform intersection using the & operator.
+           Perform difference using the - operator (set6 − set7).
+           Perform difference in reverse order (set7 − set6).
+           Perform symmetric difference using the ^ operator.
+           Display the results of all operations.
 
-• | → Union of sets
+*Program 7: Creation and Identification of Frozen Set*
 
-• & → Intersection of sets
+            Start the program.
+            Create an immutable set using the frozenset() function.
+            Store the frozen set in a variable.
+            Print the frozen set.
+            Display the data type using the type() function.
 
-• - → Difference of sets
+*Program 8: Removing Duplicate Elements from a List Using Set*
 
-📖 **3. THEORY**
+            Start the program.
+            Create a list containing duplicate student names.
+            Convert the list into a set using the set() function.
+            Store the unique elements in a new variable.
+            Display the set of unique student names.
 
-A set is a built-in data structure in Python that stores a collection of unique elements.
+*Program 9: Finding Common Subjects Among Students*
 
-Sets do not maintain any order, and duplicate values are automatically removed.
+          Start the program.
+          Create three sets containing subjects chosen by different students.
+          Use the intersection operator & to find common elements among all sets.
+          Store the result in a variable.
+          Display the common subject(s).
 
-Main features of sets:
+*Program 10: Sports Team Set operation*
 
-✔ Stores only unique elements
+          Start the program.
+          Create two sets representing cricket team and football team members.
+          Find students present in both teams using the intersection operator &.
+          Find students present in only one team using the symmetric difference operator ^.
+          Find students who play only cricket using the difference operator -.
+          Find students who play only football using the difference operator - in reverse order.
+          Display all results.
+         
+*Program 11: Finding Absent Students*
 
-✔ Unordered collection
+          Start the program.
+          Create a set of all students.
+          Create a set of students who are present.
+          Subtract the present-students set from the total-students set.
+          Store the result as absent students.
+          Display the absent students.
 
-✔ Indexing and slicing are not supported
+          lgorithm 12: Removing an Element Using discard()
 
-✔ Elements can be added or removed
+*Program 12 : Course codes*
 
-✔ Supports mathematical operations
+         Start the program.
+         Create a set containing course codes.
+         Use the discard() method to remove a specified course code.
+         Display the updated set of course codes.
+         
+*CONCLUSION:*
 
-Uses of sets:
-
-• Removing duplicate values from data
-
-• Comparing two or more collections
-
-• Attendance and record management
-
-• Efficient data handling
-
-🧮 4. **ALGORITHM**
-
-📌 Problem 1: Creation and Display of a Set
-
--Start the program
-
--Create a set with required elements
-
--Display the set using print()
-
--Observe that the order of elements is not fixed
-
--End the program
-
-📌 Problem 2: Indexing in Sets
-
--Create a set
-
--Attempt to access elements using index values
-
--An error is generated
-
--Conclude that sets do not support indexing
-
--End the program
-
-📌 Problem 3: Set with Mixed Data Types
-
--Create a set containing different data types
-
--Display the set
-
--Observe uniqueness of elements
-
--End the program
-
-📌 Problem 4: Finding Absent Students
-
--Create a set of all students
-
--Create a set of present students
-
--Find absent students using set difference
-
--Display the result
-
--End the program
-
-📌 Problem 5: Removing an Invalid Course Code
-
--Create a set of course codes
-
--Identify the invalid course code
-
--Remove it using appropriate set methods
-
--Display the updated set
-
--End the program
-
-✅ **5. CONCLUSION**
-
-This experiment helped in gaining a clear understanding of sets in Python.
-
-It explained the properties of sets and their importance in handling unique data.
-
-Set operations such as union, intersection, and difference make data comparison simple and efficient.
-
-Overall, this experiment improves knowledge of Python data structures and enhances problem-solving skills.
+Thus, the experiment successfully demonstrated the use of sets in Python for storing unique elements and performing various operations such as addition, removal, intersection, union, difference, and symmetric difference. The concept of frozenset and the use of sets to eliminate duplicate values from lists were also studied. This experiment helps in understanding efficient data management techniques in Python programming.
